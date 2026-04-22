@@ -1,0 +1,18 @@
+# Render Configuration for Multi-Agent Research
+
+env:
+  - key: GRADIO_API_KEY
+    value: your_api_key_here
+  - key: ANOTHER_ENV_VAR
+    value: another_value_here
+
+build:
+  command: |
+    pip install -r requirements.txt
+    # Add any additional build commands here
+    echo Build completed!
+
+start:
+  command: |
+    python app.py
+    # Ensure to replace 'app.py' with your actual Gradio app file if it differs
