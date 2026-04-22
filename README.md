@@ -1,27 +1,20 @@
-# Multi-Agent Research Report Generator
+# Multi-Agent Research
 
-## Overview
-A multi-agent AI system that generates research reports using 5 specialized agents.
+## Project Overview
+This project aims to explore the capabilities of multi-agent systems.
 
-## Agents & Frameworks
-| Agent | Framework | Role |
-|---|---|---|
-| Security Agent | Custom Python | Input validation & guardrails |
-| Planner Agent | LangGraph | Task decomposition workflow |
-| Research Agent | CrewAI | Information gathering |
-| Analyst Agent | CrewAI | Data analysis |
-| Report Writer | Semantic Kernel | Professional report generation |
-| Critic Agent | LangChain | Quality review |
-| Orchestrator | Custom Python | Agent coordination |
+## Render Deployment Instructions
+1. **Sign Up**: Create an account at [Render.com](https://render.com).
+2. **Create a New Web Service**: Choose to create a new web service and select the appropriate environment (e.g., Node.js).
+3. **Connect Your Repository**: Link your GitHub repository (bsr120602/multi-agent-research) to Render.
+4. **Set Environment Variables**: Add any necessary environment variables required for your application.
+5. **Deploy**: Click the deploy button and wait for Render to build and launch your application.
 
-## Setup
-```bash
-pip install -r requirements.txt
-python app.py
-```
+## Complete Project Documentation
+For detailed documentation on each aspect of the project, please refer to the [Documentation](./docs/index.md) directory.
 
-## Demo
-Visit the live endpoint: [your-azure-url]
+## Contributing
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-## Architecture
-See ARCHITECTURE.md for full architecture diagram.
+## License
+This project is licensed under the MIT License.
